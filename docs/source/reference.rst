@@ -12,7 +12,7 @@ In Python 3.6+, you can write a native async generator like this::
 
 Here's the same thing written with this library, which works on Python 3.5+::
 
-    from async_generator import async_generator, yield
+    from async_generator import async_generator, yield_
 
     @async_generator
     async def load_json_lines(stream_reader):
